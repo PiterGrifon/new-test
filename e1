@@ -4,7 +4,6 @@ local Character = nil
 
 if Reanimate == "Hatless" then
 local Hatless = loadstring(game:HttpGet("https://raw.githubusercontent.com/PiterGrifon/new-test/refs/heads/main/e3"))()
-Character = Hatless.FakeCharacter
 elseif getgenv().Framework == "Krypton" then
 KryptonConfiguration = {
 WaitTime = 0.251,
